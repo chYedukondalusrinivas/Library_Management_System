@@ -276,7 +276,7 @@ public class LibraryManagementSystem {
     public static void main(String[] args) throws SQLException, ClassNotFoundException {
         String url="jdbc:mysql://localhost:3306/library_management_system";
         String username="root";
-        String password="1607";
+        String password="******";
         Class.forName("com.mysql.cj.jdbc.Driver");
         con=DriverManager.getConnection(url,username,password);
         homeDashboard();
